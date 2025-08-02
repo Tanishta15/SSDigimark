@@ -18,12 +18,13 @@ if 'HF_TOKEN' in os.environ:
     del os.environ['HF_TOKEN']
 
 class MPPSCQuestionGenerator:
-    def __init__(self, model_name: str = "google/flan-t5-small", offline_mode: bool = True):
+    def __init__(self, model_name: str = "google/flan-t5-small", offline_mode: bool = True, custom_topics: Dict[str, List[str]] = None):
         self.model_name = model_name
         self.offline_mode = offline_mode
         self.tokenizer = None
         self.model = None
         self.generator = None
+        self.custom_topics = custom_topics
         self.mppsc_topics = self._load_mppsc_curriculum()
         self.question_templates = self._load_question_templates()
         if not offline_mode:
@@ -32,7 +33,12 @@ class MPPSCQuestionGenerator:
             print("Running in offline mode - AI generation disabled, using template-based questions only")
     
     def _load_mppsc_curriculum(self) -> Dict[str, List[str]]:
-        """Load MPPSC-specific topics by subject"""
+        """Load MPPSC-specific topics by subject - supports custom topics"""
+        # If custom topics are provided, use them
+        if self.custom_topics:
+            return self.custom_topics
+            
+        # Default topics if no custom topics provided
         return {
             'madhya_pradesh_gk': [
                 'Madhya Pradesh History', 'Gond Dynasty', 'Chandela Dynasty', 'Malwa Region',

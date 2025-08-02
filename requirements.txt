@@ -1,0 +1,16 @@
+# Core dependencies for Civil Services Question Paper Prediction Model
+pandas>=1.5.0
+numpy>=1.21.0
+transformers>=4.21.0
+torch>=1.12.0
+
+# PDF processing and OCR
+pypdfium2>=4.0.0
+easyocr>=1.6.0
+
+# Streamlit for web interface
+streamlit>=1.28.0
+
+# Optional utilities
+python-dotenv>=0.19.0
+tqdm>=4.64.0
