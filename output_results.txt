@@ -1,0 +1,77 @@
+AnswerID: 1
+📌 Original Answer:
+India have many diversity in culture and traditions. The peoples of India is living together peacefully since centuries. She play a important role in world politics now.
+
+🔍 Incorrect: India have [!! many diversity !!] in culture and traditions. The peoples of India [!! is !!] living together peacefully since centuries. She [!! play !!] [!! a !!] important role in world politics now.
+✅ Corrected: India have many diversities in culture and traditions. The peoples of India are living together peacefully since centuries. She plays an important role in world politics now.
+
+📝 Grammar Score: 80/100 (Good)
+
+--------------------------------------------------------------------------------
+
+Corrected Answer:
+India have many diversities in culture and traditions. The peoples of India are living together peacefully since centuries. She plays an important role in world politics now.
+AnswerID: 2
+📌 Original Answer:
+Government have taken many steps for improving the economy, which were effected by pandemic. However, there is still challenges in health and education sector. The schemes needs to be implemented more effectively for real benefits.
+
+🔍 Incorrect: Government have taken many steps for improving the economy, which were effected by pandemic. However, there is still challenges in health and education sector. The schemes [!! needs !!] to be implemented more effectively for real benefits.
+✅ Corrected: Government have taken many steps for improving the economy, which were effected by pandemic. However, there is still challenges in health and education sector. The schemes need to be implemented more effectively for real benefits.
+
+📝 Grammar Score: 95/100 (Excellent)
+
+--------------------------------------------------------------------------------
+
+Corrected Answer:
+Government have taken many steps for improving the economy, which were effected by pandemic. However, there is still challenges in health and education sector. The schemes need to be implemented more effectively for real benefits.
+AnswerID: 3
+📌 Original Answer:
+The climate change are big problem which affect entire world. Countries should takes strict action against carbon emission and promote green energy. Public awareness important for bring meaningful change.
+
+🔍 Incorrect: The climate change [!! are !!] big problem which affect entire world. Countries should [!! takes !!] strict action against carbon emission and promote green energy. Public awareness important [!! for bring !!] meaningful change.
+✅ Corrected: The climate change is big problem which affect entire world. Countries should take strict action against carbon emission and promote green energy. Public awareness important for bringing meaningful change.
+
+📝 Grammar Score: 80/100 (Good)
+
+--------------------------------------------------------------------------------
+
+Corrected Answer:
+The climate change is big problem which affect entire world. Countries should take strict action against carbon emission and promote green energy. Public awareness important for bringing meaningful change.
+AnswerID: 4
+📌 Original Answer:
+Technology is rapidly changing the way we live and work. It has brought many conveniences but also challenges like privacy concerns and job displacement. Society must adapt to these changes while ensuring ethical standards.
+
+✔ No grammar issues detected.
+
+📝 Grammar Score: 100/100 (Excellent)
+
+--------------------------------------------------------------------------------
+
+Corrected Answer:
+Technology is rapidly changing the way we live and work. It has brought many conveniences but also challenges like privacy concerns and job displacement. Society must adapt to these changes while ensuring ethical standards.
+AnswerID: 5
+📌 Original Answer:
+Education is a key to succeed in life. It not only give knowledge but also shape character and values. Schools and university should focuses on overall development of student.
+
+🔍 Incorrect: Education is a key to succeed in life. It not only give knowledge but also shape character and values. Schools and university should [!! focuses !!] on overall development of student.
+✅ Corrected: Education is a key to succeed in life. It not only give knowledge but also shape character and values. Schools and university should focus on overall development of student.
+
+📝 Grammar Score: 95/100 (Excellent)
+
+--------------------------------------------------------------------------------
+
+Corrected Answer:
+Education is a key to succeed in life. It not only give knowledge but also shape character and values. Schools and university should focus on overall development of student.
+AnswerID: 6
+📌 Original Answer:
+Sport plays vital role in physical and mental healths. It teach teamwork, discipline and perseverances. Government should promoted sports in all level with proper facility for youth to success.
+
+🔍 Incorrect: Sport plays vital role in physical and mental healths. It [!! teach !!] teamwork, discipline and perseverances. Government should [!! promoted !!] sports in all level with proper facility for youth to success.
+✅ Corrected: Sport plays vital role in physical and mental healths. It teaches teamwork, discipline and perseverances. Government should promote sports in all level with proper facility for youth to success.
+
+📝 Grammar Score: 90/100 (Good)
+
+--------------------------------------------------------------------------------
+
+Corrected Answer:
+Sport plays vital role in physical and mental healths. It teaches teamwork, discipline and perseverances. Government should promote sports in all level with proper facility for youth to success.
