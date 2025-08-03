@@ -1,232 +1,190 @@
 id,question,subject,topic,type,difficulty,source,year
-1,What role did Gwalior play in Madhya Pradesh's development?,madhya_pradesh_gk,Gwalior,madhya_pradesh_specific,moderate,mppsc_generator,2025
-2,"Regarding Gwalior, which of the following is true?
-Statement 1: Gond Dynasty operates at the state level in Madhya Pradesh.
-Statement 2: Chandela Dynasty has historical importance in Indian context.
+1,What is the significance of Tapti River in Madhya Pradesh's history?,madhya_pradesh_gk,Tapti River,madhya_pradesh_specific,moderate,mppsc_generator,2025
+2,What role did Tapti River play in Madhya Pradesh's development?,madhya_pradesh_gk,Tapti River,madhya_pradesh_specific,moderate,mppsc_generator,2025
+3,How does Madhya Pradesh Festivals contribute to Madhya Pradesh's economy?,madhya_pradesh_gk,Madhya Pradesh Festivals,analytical,moderate,mppsc_generator,2025
+4,"Which of the following statements about Madhya Pradesh Festivals is/are correct?
+Statement 1: Ujjain is an important institution in Madhya Pradesh's governance.
+Statement 2: Madhya Pradesh Literature plays a significant role in the state's administration.
 (a) Statement 1 only
 (b) Statement 2 only
 (c) Both 1 and 2
-(d) Neither 1 nor 2",madhya_pradesh_gk,Ujjain,factual_mcq,moderate,mppsc_generator,2025
-3,Evaluate the significance of Khajuraho Temples in Indian context.,madhya_pradesh_gk,Khajuraho Temples,analytical,moderate,mppsc_generator,2025
-4,How does Madhya Pradesh Climate contribute to Madhya Pradesh's economy?,madhya_pradesh_gk,Madhya Pradesh Climate,analytical,moderate,mppsc_generator,2025
-5,What is the significance of Madhya Pradesh Agriculture in Madhya Pradesh's history?,madhya_pradesh_gk,Madhya Pradesh Agriculture,madhya_pradesh_specific,moderate,mppsc_generator,2025
-6,What measures can be taken to strengthen Gond Dynasty in Madhya Pradesh?,madhya_pradesh_gk,Gond Dynasty,application,moderate,mppsc_generator,2025
-7,How does Madhya Pradesh Agriculture contribute to Madhya Pradesh's economy?,madhya_pradesh_gk,Madhya Pradesh Agriculture,analytical,moderate,mppsc_generator,2025
-8,What reforms are needed in Tribal Culture of MP to make it more effective?,madhya_pradesh_gk,Tribal Culture of MP,application,moderate,mppsc_generator,2025
-9,"In the context of Madhya Pradesh, Jabalpur is known for:",madhya_pradesh_gk,Jabalpur,template_enhanced,moderate,mppsc_generator,2025
-10,"The contribution of Ujjain to MP's cultural heritage includes:
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",madhya_pradesh_gk,Ujjain,template_enhanced,moderate,mppsc_generator,2025
-11,"In the context of Madhya Pradesh, Bhopal is known for:",madhya_pradesh_gk,Bhopal,template_enhanced,moderate,mppsc_generator,2025
-12,What is the historical significance of Madhya Pradesh Agriculture in Madhya Pradesh?,madhya_pradesh_gk,Madhya Pradesh Agriculture,template_enhanced,moderate,mppsc_generator,2025
-13,"The contribution of Ujjain to MP's cultural heritage includes:
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",madhya_pradesh_gk,Ujjain,template_enhanced,moderate,mppsc_generator,2025
-14,What steps should the government take to promote High Courts?,indian_polity,High Courts,application,moderate,mppsc_generator,2025
-15,What measures can be taken to strengthen Election Commission in Madhya Pradesh?,indian_polity,Election Commission,application,moderate,mppsc_generator,2025
-16,How does Indian Constitution contribute to Madhya Pradesh's economy?,indian_polity,Indian Constitution,analytical,moderate,mppsc_generator,2025
-17,What steps should the government take to promote President?,indian_polity,President,application,moderate,mppsc_generator,2025
-18,What reforms are needed in CAG to make it more effective?,indian_polity,CAG,application,moderate,mppsc_generator,2025
-19,How can CAG be improved to address current challenges?,indian_polity,CAG,application,moderate,mppsc_generator,2025
-20,How does Local Government contribute to Madhya Pradesh's economy?,indian_polity,Local Government,analytical,moderate,mppsc_generator,2025
-21,"With reference to High Courts, consider the following statements:
-Statement 1: Panchayati Raj has constitutional significance in India.
-Statement 2: Election Commission has been reformed in recent years.
+(d) Neither 1 nor 2",madhya_pradesh_gk,Madhya Pradesh Industries,factual_mcq,moderate,mppsc_generator,2025
+5,Analyze the impact of Madhya Pradesh Arts on Madhya Pradesh's development.,madhya_pradesh_gk,Madhya Pradesh Arts,analytical,moderate,mppsc_generator,2025
+6,What reforms are needed in Tribal Culture of MP to make it more effective?,madhya_pradesh_gk,Tribal Culture of MP,application,moderate,mppsc_generator,2025
+7,"In the context of Madhya Pradesh, Bhopal is known for:
+(a) Excellence in bhopal and administrative efficiency
+(b) Tourism potential and heritage sites
+(c) Cultural heritage and traditional practices
+(d) Educational institutions and human resource development",madhya_pradesh_gk,Bhopal,choice_based_mcq,moderate,mppsc_generator,2025
+8,What role did Sanchi Stupa play in Madhya Pradesh's development?,madhya_pradesh_gk,Sanchi Stupa,madhya_pradesh_specific,moderate,mppsc_generator,2025
+9,What is Jabalpur's name?,madhya_pradesh_gk,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+10,What is Ujjain's last name?,madhya_pradesh_gk,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+11,What is the name of the river Chambal River?,madhya_pradesh_gk,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+12,"The contribution of Election Commission to MP's cultural heritage includes:
+(a) Facilitates decentralized decision making
+(b) Maintains separation of powers and checks
+(c) Significant impact on election commission and cultural development
+(d) Strengthens democratic governance and transparency",indian_polity,Election Commission,choice_based_mcq,moderate,mppsc_generator,2025
+13,"With reference to President, consider the following statements:
+Statement 1: Election Commission has constitutional significance in India.
+Statement 2: High Courts has been reformed in recent years.
 (a) Statement 1 only
 (b) Statement 2 only
 (c) Both 1 and 2
-(d) Neither 1 nor 2",indian_polity,Rajya Sabha,factual_mcq,moderate,mppsc_generator,2025
-22,"In the context of Madhya Pradesh, Lok Sabha is known for:",indian_polity,Lok Sabha,template_enhanced,moderate,mppsc_generator,2025
-23,"Which of the following best describes the role of Lok Sabha in MP's development?
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",indian_polity,Lok Sabha,template_enhanced,moderate,mppsc_generator,2025
-24,What is the historical significance of Local Government in Madhya Pradesh?,indian_polity,Local Government,template_enhanced,moderate,mppsc_generator,2025
-25,"The Indian Constitution has been important for Madhya Pradesh because:
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",indian_polity,Indian Constitution,template_enhanced,moderate,mppsc_generator,2025
-26,"The Rajya Sabha has been important for Madhya Pradesh because:
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",indian_polity,Rajya Sabha,template_enhanced,moderate,mppsc_generator,2025
-27,How does Monetary Policy contribute to Madhya Pradesh's economy?,indian_economy,Monetary Policy,analytical,moderate,mppsc_generator,2025
-28,What are the challenges related to Economic Growth in Madhya Pradesh?,indian_economy,Economic Growth,analytical,moderate,mppsc_generator,2025
-29,What measures can be taken to strengthen Banking System in Madhya Pradesh?,indian_economy,Banking System,application,moderate,mppsc_generator,2025
-30,"Regarding Agriculture, which of the following is true?
-Statement 1: Poverty operates at the state level in Madhya Pradesh.
-Statement 2: Banking System has historical importance in Indian context.
+(d) Neither 1 nor 2",indian_polity,Parliament,factual_mcq,moderate,mppsc_generator,2025
+14,How can Parliament be improved to address current challenges?,indian_polity,Parliament,application,moderate,mppsc_generator,2025
+15,"With reference to Directive Principles, consider the following statements:
+Statement 1: Supreme Court has constitutional significance in India.
+Statement 2: Urban Local Bodies has been reformed in recent years.
 (a) Statement 1 only
 (b) Statement 2 only
 (c) Both 1 and 2
-(d) Neither 1 nor 2",indian_economy,RBI,factual_mcq,moderate,mppsc_generator,2025
-31,What role did Five Year Plans play in Madhya Pradesh's development?,indian_economy,Five Year Plans,madhya_pradesh_specific,moderate,mppsc_generator,2025
-32,"Which of the following statements about Poverty is/are correct?
-Statement 1: Monetary Policy is an important institution in Madhya Pradesh's governance.
-Statement 2: Economic Reforms plays a significant role in the state's administration.
+(d) Neither 1 nor 2",indian_polity,Council of Ministers,factual_mcq,moderate,mppsc_generator,2025
+16,"The Supreme Court has been important for Madhya Pradesh because:
+(a) Legislative procedures and parliamentary system
+(b) Provides foundation for supreme court and systematic governance
+(c) Administrative reforms and good governance
+(d) Promotes federal structure implementation",indian_polity,Supreme Court,choice_based_mcq,moderate,mppsc_generator,2025
+17,"With reference to Directive Principles, consider the following statements:
+Statement 1: Indian Constitution has constitutional significance in India.
+Statement 2: State Government has been reformed in recent years.
 (a) Statement 1 only
 (b) Statement 2 only
 (c) Both 1 and 2
-(d) Neither 1 nor 2",indian_economy,Fiscal Policy,factual_mcq,moderate,mppsc_generator,2025
-33,What role did Agriculture play in Madhya Pradesh's development?,indian_economy,Agriculture,madhya_pradesh_specific,moderate,mppsc_generator,2025
-34,What reforms are needed in Services Sector to make it more effective?,indian_economy,Services Sector,application,moderate,mppsc_generator,2025
-35,"In the context of Madhya Pradesh, Budget Process is known for:",indian_economy,Budget Process,template_enhanced,moderate,mppsc_generator,2025
-36,"The Employment has been important for Madhya Pradesh because:
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",indian_economy,Employment,template_enhanced,moderate,mppsc_generator,2025
-37,"The contribution of Economic Planning to MP's cultural heritage includes:
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",indian_economy,Economic Planning,template_enhanced,moderate,mppsc_generator,2025
-38,"In the context of Madhya Pradesh, Inflation is known for:",indian_economy,Inflation,template_enhanced,moderate,mppsc_generator,2025
-39,What is the historical significance of Fiscal Policy in Madhya Pradesh?,indian_economy,Fiscal Policy,template_enhanced,moderate,mppsc_generator,2025
-40,What is the significance of Maratha Empire in Madhya Pradesh's history?,indian_history,Maratha Empire,madhya_pradesh_specific,moderate,mppsc_generator,2025
-41,What is the significance of Delhi Sultanate in Madhya Pradesh's history?,indian_history,Delhi Sultanate,madhya_pradesh_specific,moderate,mppsc_generator,2025
-42,How does Maratha Empire contribute to Madhya Pradesh's economy?,indian_history,Maratha Empire,analytical,moderate,mppsc_generator,2025
-43,What role did Ancient India play in Madhya Pradesh's development?,indian_history,Ancient India,madhya_pradesh_specific,moderate,mppsc_generator,2025
-44,"With reference to British Rule, consider the following statements:
-Statement 1: Delhi Sultanate has constitutional significance in India.
-Statement 2: Mauryan Empire has been reformed in recent years.
+(d) Neither 1 nor 2",indian_polity,Prime Minister,factual_mcq,moderate,mppsc_generator,2025
+18,Who was the prominent personality related to State Government in Madhya Pradesh?,indian_polity,State Government,madhya_pradesh_specific,moderate,mppsc_generator,2025
+19,What measures can be taken to strengthen Panchayati Raj in Madhya Pradesh?,indian_polity,Panchayati Raj,application,moderate,mppsc_generator,2025
+20,What is the name of Lok Sabha?,indian_polity,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+21,What is the name of the MPPSC examination in Madhya Pradesh?,indian_polity,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+22,What is the name of the president's office in Madhya Pradesh?,indian_polity,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+23,What are the challenges related to Foreign Trade in Madhya Pradesh?,indian_economy,Foreign Trade,analytical,moderate,mppsc_generator,2025
+24,Which district in Madhya Pradesh is known for Capital Markets?,indian_economy,Capital Markets,madhya_pradesh_specific,moderate,mppsc_generator,2025
+25,What role did Economic Reforms play in Madhya Pradesh's development?,indian_economy,Economic Reforms,madhya_pradesh_specific,moderate,mppsc_generator,2025
+26,"Which of the following statements about Monetary Policy is/are correct?
+Statement 1: Budget Process is an important institution in Madhya Pradesh's governance.
+Statement 2: Banking System plays a significant role in the state's administration.
+(a) Statement 1 only
+(b) Statement 2 only
+(c) Both 1 and 2
+(d) Neither 1 nor 2",indian_economy,Agriculture,factual_mcq,moderate,mppsc_generator,2025
+27,"With reference to Agriculture, consider the following statements:
+Statement 1: Inflation has constitutional significance in India.
+Statement 2: Monetary Policy has been reformed in recent years.
+(a) Statement 1 only
+(b) Statement 2 only
+(c) Both 1 and 2
+(d) Neither 1 nor 2",indian_economy,Banking System,factual_mcq,moderate,mppsc_generator,2025
+28,What is the significance of Foreign Trade in Madhya Pradesh's history?,indian_economy,Foreign Trade,madhya_pradesh_specific,moderate,mppsc_generator,2025
+29,"Which of the following statements about Employment is/are correct?
+Statement 1: Poverty is an important institution in Madhya Pradesh's governance.
+Statement 2: Capital Markets plays a significant role in the state's administration.
+(a) Statement 1 only
+(b) Statement 2 only
+(c) Both 1 and 2
+(d) Neither 1 nor 2",indian_economy,Foreign Trade,factual_mcq,moderate,mppsc_generator,2025
+30,What is the significance of Fiscal Policy in Madhya Pradesh's history?,indian_economy,Fiscal Policy,madhya_pradesh_specific,moderate,mppsc_generator,2025
+31,What is the purpose of MPPSC examination in Madhya Pradesh?,indian_economy,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+32,What is the budget process in Madhya Pradesh?,indian_economy,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+33,What is the name of the service sector that is important to Madhya Pradesh Public Service Commission exam?,indian_economy,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+34,What role did Ancient India play in Madhya Pradesh's development?,indian_history,Ancient India,madhya_pradesh_specific,moderate,mppsc_generator,2025
+35,"Which of the following statements about Modern India is/are correct?
+Statement 1: Medieval India is an important institution in Madhya Pradesh's governance.
+Statement 2: Mughal Empire plays a significant role in the state's administration.
+(a) Statement 1 only
+(b) Statement 2 only
+(c) Both 1 and 2
+(d) Neither 1 nor 2",indian_history,Medieval India,factual_mcq,moderate,mppsc_generator,2025
+36,What role did Ancient India play in Madhya Pradesh's development?,indian_history,Ancient India,madhya_pradesh_specific,moderate,mppsc_generator,2025
+37,"With reference to Maratha Empire, consider the following statements:
+Statement 1: Mauryan Empire has constitutional significance in India.
+Statement 2: Delhi Sultanate has been reformed in recent years.
 (a) Statement 1 only
 (b) Statement 2 only
 (c) Both 1 and 2
 (d) Neither 1 nor 2",indian_history,Maratha Empire,factual_mcq,moderate,mppsc_generator,2025
-45,What steps should the government take to promote Mughal Empire?,indian_history,Mughal Empire,application,moderate,mppsc_generator,2025
-46,What is the significance of Mauryan Empire in Madhya Pradesh's history?,indian_history,Mauryan Empire,madhya_pradesh_specific,moderate,mppsc_generator,2025
-47,What measures can be taken to strengthen Delhi Sultanate in Madhya Pradesh?,indian_history,Delhi Sultanate,application,moderate,mppsc_generator,2025
-48,"In the context of Madhya Pradesh, Ancient India is known for:",indian_history,Ancient India,template_enhanced,moderate,mppsc_generator,2025
-49,"The contribution of Medieval India to MP's cultural heritage includes:
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",indian_history,Medieval India,template_enhanced,moderate,mppsc_generator,2025
-50,What is the historical significance of Gupta Period in Madhya Pradesh?,indian_history,Gupta Period,template_enhanced,moderate,mppsc_generator,2025
-51,"In the context of Madhya Pradesh, Vedic Period is known for:",indian_history,Vedic Period,template_enhanced,moderate,mppsc_generator,2025
-52,"Which of the following best describes the role of Medieval India in MP's development?
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",indian_history,Medieval India,template_enhanced,moderate,mppsc_generator,2025
-53,How can Industries be improved to address current challenges?,indian_geography,Industries,application,moderate,mppsc_generator,2025
-54,How does Physical Geography contribute to Madhya Pradesh's economy?,indian_geography,Physical Geography,analytical,moderate,mppsc_generator,2025
-55,What steps should the government take to promote Mountain Ranges?,indian_geography,Mountain Ranges,application,moderate,mppsc_generator,2025
-56,"Regarding Transportation, which of the following is true?
-Statement 1: Industries operates at the state level in Madhya Pradesh.
-Statement 2: Population has historical importance in Indian context.
+38,Which district in Madhya Pradesh is known for Modern India?,indian_history,Modern India,madhya_pradesh_specific,moderate,mppsc_generator,2025
+39,What measures can be taken to strengthen Modern India in Madhya Pradesh?,indian_history,Modern India,application,moderate,mppsc_generator,2025
+40,"Regarding Delhi Sultanate, which of the following is true?
+Statement 1: Indus Valley Civilization operates at the state level in Madhya Pradesh.
+Statement 2: Vedic Period has historical importance in Indian context.
 (a) Statement 1 only
 (b) Statement 2 only
 (c) Both 1 and 2
-(d) Neither 1 nor 2",indian_geography,Indian Rivers,factual_mcq,moderate,mppsc_generator,2025
-57,Evaluate the significance of Indian Rivers in Indian context.,indian_geography,Indian Rivers,analytical,moderate,mppsc_generator,2025
-58,Analyze the impact of Disaster Management on Madhya Pradesh's development.,indian_geography,Disaster Management,analytical,moderate,mppsc_generator,2025
-59,Who was the prominent personality related to Transportation in Madhya Pradesh?,indian_geography,Transportation,madhya_pradesh_specific,moderate,mppsc_generator,2025
-60,"Regarding Mountain Ranges, which of the following is true?
-Statement 1: Environmental Issues operates at the state level in Madhya Pradesh.
-Statement 2: Monsoons has historical importance in Indian context.
-(a) Statement 1 only
-(b) Statement 2 only
-(c) Both 1 and 2
-(d) Neither 1 nor 2",indian_geography,Industries,factual_mcq,moderate,mppsc_generator,2025
-61,"The contribution of Economic Geography to MP's cultural heritage includes:
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",indian_geography,Economic Geography,template_enhanced,moderate,mppsc_generator,2025
-62,What is the historical significance of Transportation in Madhya Pradesh?,indian_geography,Transportation,template_enhanced,moderate,mppsc_generator,2025
-63,"The Climate has been important for Madhya Pradesh because:
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",indian_geography,Climate,template_enhanced,moderate,mppsc_generator,2025
-64,"The Economic Geography has been important for Madhya Pradesh because:
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",indian_geography,Economic Geography,template_enhanced,moderate,mppsc_generator,2025
-65,"Which of the following best describes the role of Physical Geography in MP's development?
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",indian_geography,Physical Geography,template_enhanced,moderate,mppsc_generator,2025
-66,What are the challenges related to Space Technology in Madhya Pradesh?,general_science,Space Technology,analytical,moderate,mppsc_generator,2025
-67,How can Computer Science be improved to address current challenges?,general_science,Computer Science,application,moderate,mppsc_generator,2025
-68,What is the significance of Chemistry in Madhya Pradesh's history?,general_science,Chemistry,madhya_pradesh_specific,moderate,mppsc_generator,2025
-69,What steps should the government take to promote Physics?,general_science,Physics,application,moderate,mppsc_generator,2025
-70,"Which of the following statements about Biotechnology is/are correct?
-Statement 1: Chemistry is an important institution in Madhya Pradesh's governance.
-Statement 2: Medical Science plays a significant role in the state's administration.
-(a) Statement 1 only
-(b) Statement 2 only
-(c) Both 1 and 2
-(d) Neither 1 nor 2",general_science,Agricultural Science,factual_mcq,moderate,mppsc_generator,2025
-71,What reforms are needed in Nuclear Technology to make it more effective?,general_science,Nuclear Technology,application,moderate,mppsc_generator,2025
-72,How can Science and Technology Policy be improved to address current challenges?,general_science,Science and Technology Policy,application,moderate,mppsc_generator,2025
-73,"Which of the following statements about Scientific Research is/are correct?
+(d) Neither 1 nor 2",indian_history,Freedom Struggle,factual_mcq,moderate,mppsc_generator,2025
+41,"Which of the following best describes the role of Ancient India in MP's development?
+(a) Essential for ancient india implementation and effective administration
+(b) Military strategies and warfare techniques
+(c) Literary contributions and intellectual traditions
+(d) Social reforms and religious movements",indian_history,Ancient India,choice_based_mcq,moderate,mppsc_generator,2025
+42,What is the name of the city of Delhi Sultanate?,indian_history,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+43,What is the name of the Sultanate of Delhi?,indian_history,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+44,What is the British rule for MPPSC examination in Madhya Pradesh?,indian_history,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+45,What role did Mountain Ranges play in Madhya Pradesh's development?,indian_geography,Mountain Ranges,madhya_pradesh_specific,moderate,mppsc_generator,2025
+46,Analyze the impact of Climate on Madhya Pradesh's development.,indian_geography,Climate,analytical,moderate,mppsc_generator,2025
+47,Who was the prominent personality related to Monsoons in Madhya Pradesh?,indian_geography,Monsoons,madhya_pradesh_specific,moderate,mppsc_generator,2025
+48,"In the context of Madhya Pradesh, Industries is known for:
+(a) Climate patterns and monsoon influence
+(b) Regional development and economic zones
+(c) Excellence in industries and administrative efficiency
+(d) Industrial development and mineral resources",indian_geography,Industries,choice_based_mcq,moderate,mppsc_generator,2025
+49,Which district in Madhya Pradesh is known for Environmental Issues?,indian_geography,Environmental Issues,madhya_pradesh_specific,moderate,mppsc_generator,2025
+50,What role did Transportation play in Madhya Pradesh's development?,indian_geography,Transportation,madhya_pradesh_specific,moderate,mppsc_generator,2025
+51,What steps should the government take to promote Agriculture?,indian_geography,Agriculture,application,moderate,mppsc_generator,2025
+52,Evaluate the significance of Monsoons in Indian context.,indian_geography,Monsoons,analytical,moderate,mppsc_generator,2025
+53,What is the profession of the MPPSC examination in Madhya Pradesh?,indian_geography,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+54,What is the name of the state where the MPPSC examination takes place?,indian_geography,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+55,What is the name of a natural resource in the Madhya Pradesh Public Service Commission exam?,indian_geography,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+56,"In the context of Madhya Pradesh, Space Technology is known for:
+(a) Excellence in space technology and administrative efficiency
+(b) Energy production and renewable resources
+(c) Healthcare improvements and medical breakthroughs
+(d) Information technology and digital solutions",general_science,Space Technology,choice_based_mcq,moderate,mppsc_generator,2025
+57,"The contribution of Computer Science to MP's cultural heritage includes:
+(a) Environmental solutions and sustainability
+(b) Research institutions and scientific development
+(c) Significant impact on computer science and cultural development
+(d) Scientific research and technological advancement",general_science,Computer Science,choice_based_mcq,moderate,mppsc_generator,2025
+58,What is the significance of Medical Science in Madhya Pradesh's history?,general_science,Medical Science,madhya_pradesh_specific,moderate,mppsc_generator,2025
+59,"Which of the following statements about Biology is/are correct?
 Statement 1: Nuclear Technology is an important institution in Madhya Pradesh's governance.
-Statement 2: Agricultural Science plays a significant role in the state's administration.
+Statement 2: Chemistry plays a significant role in the state's administration.
 (a) Statement 1 only
 (b) Statement 2 only
 (c) Both 1 and 2
-(d) Neither 1 nor 2",general_science,Environmental Science,factual_mcq,moderate,mppsc_generator,2025
-74,"In the context of Madhya Pradesh, Agricultural Science is known for:",general_science,Agricultural Science,template_enhanced,moderate,mppsc_generator,2025
-75,"The contribution of Science and Technology Policy to MP's cultural heritage includes:
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",general_science,Science and Technology Policy,template_enhanced,moderate,mppsc_generator,2025
-76,"The contribution of Space Technology to MP's cultural heritage includes:
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",general_science,Space Technology,template_enhanced,moderate,mppsc_generator,2025
-77,"The Science and Technology Policy has been important for Madhya Pradesh because:
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",general_science,Science and Technology Policy,template_enhanced,moderate,mppsc_generator,2025
-78,"Which of the following best describes the role of Medical Science in MP's development?
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",general_science,Medical Science,template_enhanced,moderate,mppsc_generator,2025
-79,Who was the prominent personality related to Awards in Madhya Pradesh?,current_affairs,Awards,madhya_pradesh_specific,moderate,mppsc_generator,2025
-80,"With reference to Books and Authors, consider the following statements:
-Statement 1: Science and Technology News has constitutional significance in India.
-Statement 2: National Events has been reformed in recent years.
+(d) Neither 1 nor 2",general_science,Physics,factual_mcq,moderate,mppsc_generator,2025
+60,"The Information Technology has been important for Madhya Pradesh because:
+(a) Scientific research and technological advancement
+(b) Environmental solutions and sustainability
+(c) Industrial applications and innovation
+(d) Provides foundation for information technology and systematic governance",general_science,Information Technology,choice_based_mcq,moderate,mppsc_generator,2025
+61,Evaluate the significance of Space Technology in Indian context.,general_science,Space Technology,analytical,moderate,mppsc_generator,2025
+62,What is the significance of Physics in Madhya Pradesh's history?,general_science,Physics,madhya_pradesh_specific,moderate,mppsc_generator,2025
+63,"In the context of Madhya Pradesh, Scientific Research is known for:
+(a) Excellence in scientific research and administrative efficiency
+(b) Agricultural technology and productivity
+(c) Industrial applications and innovation
+(d) Biotechnology and genetic engineering",general_science,Scientific Research,choice_based_mcq,moderate,mppsc_generator,2025
+64,What is the name of the research institute in Madhya Pradesh?,general_science,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+65,What is the name of the country that has a population of more than 1 million people?,general_science,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+66,What is the name of the university in Madhya Pradesh?,general_science,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+67,How can Important Personalities be improved to address current challenges?,current_affairs,Important Personalities,application,moderate,mppsc_generator,2025
+68,What measures can be taken to strengthen Important Personalities in Madhya Pradesh?,current_affairs,Important Personalities,application,moderate,mppsc_generator,2025
+69,"With reference to Sports, consider the following statements:
+Statement 1: Important Personalities has constitutional significance in India.
+Statement 2: Science and Technology News has been reformed in recent years.
 (a) Statement 1 only
 (b) Statement 2 only
 (c) Both 1 and 2
-(d) Neither 1 nor 2",current_affairs,Policy Initiatives,factual_mcq,moderate,mppsc_generator,2025
-81,Who was the prominent personality related to Important Personalities in Madhya Pradesh?,current_affairs,Important Personalities,madhya_pradesh_specific,moderate,mppsc_generator,2025
-82,What is the significance of Science and Technology News in Madhya Pradesh's history?,current_affairs,Science and Technology News,madhya_pradesh_specific,moderate,mppsc_generator,2025
-83,How does Books and Authors contribute to Madhya Pradesh's economy?,current_affairs,Books and Authors,analytical,moderate,mppsc_generator,2025
-84,How does Science and Technology News contribute to Madhya Pradesh's economy?,current_affairs,Science and Technology News,analytical,moderate,mppsc_generator,2025
-85,Who was the prominent personality related to Science and Technology News in Madhya Pradesh?,current_affairs,Science and Technology News,madhya_pradesh_specific,moderate,mppsc_generator,2025
-86,How does Economic Developments contribute to Madhya Pradesh's economy?,current_affairs,Economic Developments,analytical,moderate,mppsc_generator,2025
-87,"The contribution of Sports to MP's cultural heritage includes:
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",current_affairs,Sports,template_enhanced,moderate,mppsc_generator,2025
-88,"Which of the following best describes the role of Policy Initiatives in MP's development?
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",current_affairs,Policy Initiatives,template_enhanced,moderate,mppsc_generator,2025
-89,What is the historical significance of Science and Technology News in Madhya Pradesh?,current_affairs,Science and Technology News,template_enhanced,moderate,mppsc_generator,2025
-90,"Which of the following best describes the role of Books and Authors in MP's development?
-(a) Option A
-(b) Option B
-(c) Option C
-(d) Option D",current_affairs,Books and Authors,template_enhanced,moderate,mppsc_generator,2025
-91,What is the historical significance of Government Schemes in Madhya Pradesh?,current_affairs,Government Schemes,template_enhanced,moderate,mppsc_generator,2025
+(d) Neither 1 nor 2",current_affairs,National Events,factual_mcq,moderate,mppsc_generator,2025
+70,Who was the prominent personality related to Sports in Madhya Pradesh?,current_affairs,Sports,madhya_pradesh_specific,moderate,mppsc_generator,2025
+71,What steps should the government take to promote Awards?,current_affairs,Awards,application,moderate,mppsc_generator,2025
+72,How does Government Schemes contribute to Madhya Pradesh's economy?,current_affairs,Government Schemes,analytical,moderate,mppsc_generator,2025
+73,"Which of the following best describes the role of Sports in MP's development?
+(a) Educational reforms and skill development
+(b) Policy implementation and governance reforms
+(c) Essential for sports implementation and effective administration
+(d) Environmental conservation and sustainable development",current_affairs,Sports,choice_based_mcq,moderate,mppsc_generator,2025
+74,What is the significance of Important Personalities in Madhya Pradesh's history?,current_affairs,Important Personalities,madhya_pradesh_specific,moderate,mppsc_generator,2025
+75,What is the best title for the MPPSC examination in Madhya Pradesh?,current_affairs,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+76,What is the name of the political initiative for MPPSC examination in Madhya Pradesh?,current_affairs,ai_generated,ai_enhanced,moderate,mppsc_generator,2025
+77,What is the main purpose of the MPPSC examination in Madhya Pradesh?,current_affairs,ai_generated,ai_enhanced,moderate,mppsc_generator,2025

@@ -9,74 +9,86 @@ Instructions: Choose the best option for each question
 Section 1: Madhya Pradesh Gk
 ----------------------------------------
 
-1. What role did Gwalior play in Madhya Pradesh's development?
+1. What is the significance of Tapti River in Madhya Pradesh's history?
    Difficulty: moderate | Type: madhya_pradesh_specific
 
-2. Regarding Gwalior, which of the following is true?
-Statement 1: Gond Dynasty operates at the state level in Madhya Pradesh.
-Statement 2: Chandela Dynasty has historical importance in Indian context.
-(a) Statement 1 only
-(b) Statement 2 only
-(c) Both 1 and 2
-(d) Neither 1 nor 2
-   Difficulty: moderate | Type: factual_mcq
+2. What role did Tapti River play in Madhya Pradesh's development?
+   Difficulty: moderate | Type: madhya_pradesh_specific
 
-3. Evaluate the significance of Khajuraho Temples in Indian context.
+3. How does Madhya Pradesh Festivals contribute to Madhya Pradesh's economy?
    Difficulty: moderate | Type: analytical
 
 Section 2: Current Affairs
 ----------------------------------------
 
-4. Who was the prominent personality related to Awards in Madhya Pradesh?
-   Difficulty: moderate | Type: madhya_pradesh_specific
+4. How can Important Personalities be improved to address current challenges?
+   Difficulty: moderate | Type: application
 
-5. With reference to Books and Authors, consider the following statements:
-Statement 1: Science and Technology News has constitutional significance in India.
-Statement 2: National Events has been reformed in recent years.
+5. What measures can be taken to strengthen Important Personalities in Madhya Pradesh?
+   Difficulty: moderate | Type: application
+
+6. With reference to Sports, consider the following statements:
+Statement 1: Important Personalities has constitutional significance in India.
+Statement 2: Science and Technology News has been reformed in recent years.
 (a) Statement 1 only
 (b) Statement 2 only
 (c) Both 1 and 2
 (d) Neither 1 nor 2
    Difficulty: moderate | Type: factual_mcq
 
-6. Who was the prominent personality related to Important Personalities in Madhya Pradesh?
-   Difficulty: moderate | Type: madhya_pradesh_specific
-
 Section 3: Indian History
 ----------------------------------------
 
-7. What is the significance of Maratha Empire in Madhya Pradesh's history?
+7. What role did Ancient India play in Madhya Pradesh's development?
    Difficulty: moderate | Type: madhya_pradesh_specific
 
-8. What is the significance of Delhi Sultanate in Madhya Pradesh's history?
-   Difficulty: moderate | Type: madhya_pradesh_specific
+8. Which of the following statements about Modern India is/are correct?
+Statement 1: Medieval India is an important institution in Madhya Pradesh's governance.
+Statement 2: Mughal Empire plays a significant role in the state's administration.
+(a) Statement 1 only
+(b) Statement 2 only
+(c) Both 1 and 2
+(d) Neither 1 nor 2
+   Difficulty: moderate | Type: factual_mcq
 
-9. How does Maratha Empire contribute to Madhya Pradesh's economy?
-   Difficulty: moderate | Type: analytical
+9. What role did Ancient India play in Madhya Pradesh's development?
+   Difficulty: moderate | Type: madhya_pradesh_specific
 
 Section 4: Indian Geography
 ----------------------------------------
 
-10. How can Industries be improved to address current challenges?
-   Difficulty: moderate | Type: application
+10. What role did Mountain Ranges play in Madhya Pradesh's development?
+   Difficulty: moderate | Type: madhya_pradesh_specific
 
-11. How does Physical Geography contribute to Madhya Pradesh's economy?
+11. Analyze the impact of Climate on Madhya Pradesh's development.
    Difficulty: moderate | Type: analytical
 
-12. What steps should the government take to promote Mountain Ranges?
-   Difficulty: moderate | Type: application
+12. Who was the prominent personality related to Monsoons in Madhya Pradesh?
+   Difficulty: moderate | Type: madhya_pradesh_specific
 
 Section 5: Indian Polity
 ----------------------------------------
 
-13. What steps should the government take to promote High Courts?
-   Difficulty: moderate | Type: application
+13. The contribution of Election Commission to MP's cultural heritage includes:
+(a) Facilitates decentralized decision making
+(b) Maintains separation of powers and checks
+(c) Significant impact on election commission and cultural development
+(d) Strengthens democratic governance and transparency
+   Difficulty: moderate | Type: choice_based_mcq
 
-14. What measures can be taken to strengthen Election Commission in Madhya Pradesh?
-   Difficulty: moderate | Type: application
+14. With reference to President, consider the following statements:
+Statement 1: Election Commission has constitutional significance in India.
+Statement 2: High Courts has been reformed in recent years.
+(a) Statement 1 only
+(b) Statement 2 only
+(c) Both 1 and 2
+(d) Neither 1 nor 2
+   Difficulty: moderate | Type: factual_mcq
 
-15. How does Indian Constitution contribute to Madhya Pradesh's economy?
-   Difficulty: moderate | Type: analytical
+15. How can Parliament be improved to address current challenges?
+   Difficulty: moderate | Type: application
 
 
 ==================================================
+Answer Key: Contact your instructor
+Generated by MPPSC Question Generator

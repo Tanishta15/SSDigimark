@@ -18,7 +18,7 @@ if 'HF_TOKEN' in os.environ:
     del os.environ['HF_TOKEN']
 
 class MPPSCQuestionGenerator:
-    def __init__(self, model_name: str = "google/flan-t5-small", offline_mode: bool = True, custom_topics: Dict[str, List[str]] = None):
+    def __init__(self, model_name: str = "google/flan-t5-small", offline_mode: bool = False, custom_topics: Dict[str, List[str]] = None):
         self.model_name = model_name
         self.offline_mode = offline_mode
         self.tokenizer = None
@@ -91,6 +91,12 @@ class MPPSCQuestionGenerator:
                 "Which of the following statements about {} is/are correct?\nStatement 1: {} is an important institution in Madhya Pradesh's governance.\nStatement 2: {} plays a significant role in the state's administration.",
                 "With reference to {}, consider the following statements:\nStatement 1: {} has constitutional significance in India.\nStatement 2: {} has been reformed in recent years.",
                 "Regarding {}, which of the following is true?\nStatement 1: {} operates at the state level in Madhya Pradesh.\nStatement 2: {} has historical importance in Indian context."
+            ],
+            'choice_based_mcq': [
+                "Which of the following best describes the role of {} in MP's development?",
+                "The {} has been important for Madhya Pradesh because:",
+                "In the context of Madhya Pradesh, {} is known for:",
+                "The contribution of {} to MP's cultural heritage includes:"
             ],
             'madhya_pradesh_specific': [
                 "Which district in Madhya Pradesh is known for {}?",
@@ -198,9 +204,21 @@ class MPPSCQuestionGenerator:
             else:
                 question_text = template
             
-            # Add multiple choice options for factual questions
+            # Add multiple choice options for questions that need them
             if template_category == 'factual_mcq':
                 question_text += "\n(a) Statement 1 only\n(b) Statement 2 only\n(c) Both 1 and 2\n(d) Neither 1 nor 2"
+            elif template_category == 'choice_based_mcq':
+                # Generate meaningful MCQ options for choice-based questions
+                options = self._generate_mcq_options(topic, subject, question_text)
+                question_text += "\n" + "\n".join(options)
+            elif ("Which of the following" in question_text or 
+                  "best describes" in question_text or
+                  "because:" in question_text or 
+                  "includes:" in question_text or
+                  "known for:" in question_text):
+                # Generate meaningful MCQ options for these types
+                options = self._generate_mcq_options(topic, subject, question_text)
+                question_text += "\n" + "\n".join(options)
             
             questions.append({
                 'question': question_text,
@@ -281,9 +299,10 @@ class MPPSCQuestionGenerator:
             
             question_text = template.format(topic)
             
-            # Add multiple choice options
+            # Generate meaningful multiple choice options based on the question type
             if "Which of the following" in template or "because:" in template or "includes:" in template:
-                question_text += "\n(a) Option A\n(b) Option B\n(c) Option C\n(d) Option D"
+                options = self._generate_mcq_options(topic, subject, template)
+                question_text += "\n" + "\n".join(options)
             
             questions.append({
                 'question': question_text,
@@ -294,6 +313,138 @@ class MPPSCQuestionGenerator:
             })
         
         return questions
+    
+    def _generate_mcq_options(self, topic: str, subject: str, template: str) -> List[str]:
+        """Generate meaningful MCQ options based on topic and subject"""
+        
+        # Subject-specific option pools
+        option_pools = {
+            'indian_polity': [
+                "Strengthens democratic governance and transparency",
+                "Provides constitutional framework for administration", 
+                "Ensures citizen participation in governance",
+                "Maintains separation of powers and checks",
+                "Facilitates decentralized decision making",
+                "Promotes federal structure implementation",
+                "Constitutional provisions and amendments",
+                "Legislative procedures and parliamentary system",
+                "Judicial oversight and legal framework",
+                "Administrative reforms and good governance"
+            ],
+            'indian_geography': [
+                "Natural resource distribution and management",
+                "Climate patterns and monsoon influence",
+                "River systems and water resource planning", 
+                "Agricultural productivity and soil fertility",
+                "Industrial development and mineral resources",
+                "Transportation networks and connectivity",
+                "Environmental conservation and sustainability",
+                "Regional development and economic zones",
+                "Population distribution and urbanization",
+                "Disaster management and climate adaptation"
+            ],
+            'indian_economy': [
+                "Economic growth and development indicators",
+                "Employment generation and skill development",
+                "Industrial development and manufacturing sector",
+                "Agricultural productivity and rural development", 
+                "Financial inclusion and banking sector reforms",
+                "Foreign trade and export promotion",
+                "Poverty alleviation and social welfare schemes",
+                "Infrastructure development and public investment",
+                "Fiscal policy and budget management",
+                "Monetary policy and inflation control"
+            ],
+            'madhya_pradesh_gk': [
+                "Cultural heritage and traditional practices",
+                "Historical significance and architectural monuments",
+                "Economic development and industrial growth",
+                "Agricultural productivity and rural economy",
+                "Tourism potential and heritage sites",
+                "Educational institutions and human resource development",
+                "Natural resources and mineral wealth",
+                "Government initiatives and welfare schemes",
+                "Tribal culture and indigenous communities",
+                "Religious and spiritual significance"
+            ],
+            'current_affairs': [
+                "Policy implementation and governance reforms",
+                "Social development and welfare initiatives",
+                "Economic progress and business development",
+                "Technology advancement and digital transformation",
+                "Environmental conservation and sustainable development",
+                "International relations and diplomatic initiatives",
+                "Sports achievements and cultural promotion",
+                "Scientific research and innovation",
+                "Educational reforms and skill development",
+                "Health sector improvements and public welfare"
+            ],
+            'general_science': [
+                "Scientific research and technological advancement",
+                "Industrial applications and innovation",
+                "Healthcare improvements and medical breakthroughs",
+                "Environmental solutions and sustainability",
+                "Agricultural technology and productivity",
+                "Space research and satellite technology",
+                "Biotechnology and genetic engineering",
+                "Information technology and digital solutions",
+                "Energy production and renewable resources",
+                "Research institutions and scientific development"
+            ],
+            'indian_history': [
+                "Cultural heritage and civilizational development",
+                "Political systems and administrative structures",
+                "Economic patterns and trade relations",
+                "Social reforms and religious movements",
+                "Architectural achievements and artistic traditions",
+                "Military strategies and warfare techniques",
+                "Literary contributions and intellectual traditions",
+                "Regional kingdoms and dynastic rule",
+                "Freedom struggle and nationalist movements",
+                "Colonial impact and independence movement"
+            ]
+        }
+        
+        # Get appropriate options for the subject
+        available_options = option_pools.get(subject, option_pools['indian_polity'])
+        
+        # Select 3 relevant options + 1 correct option
+        import random
+        random.seed(hash(topic + template))  # Consistent options for same topic
+        
+        selected_options = random.sample(available_options, 3)
+        
+        # Generate a topic-specific correct option
+        correct_option = self._generate_correct_option(topic, subject, template)
+        
+        # Combine and shuffle
+        all_options = selected_options + [correct_option]
+        random.shuffle(all_options)
+        
+        # Format as MCQ options
+        formatted_options = []
+        for i, option in enumerate(all_options):
+            letter = chr(ord('a') + i)
+            formatted_options.append(f"({letter}) {option}")
+        
+        return formatted_options
+    
+    def _generate_correct_option(self, topic: str, subject: str, template: str) -> str:
+        """Generate a contextually correct option for the given topic"""
+        
+        # Template-specific correct options
+        if "historical significance" in template.lower():
+            return f"Played crucial role in {topic.lower()} development and regional governance"
+        elif "best describes" in template.lower():
+            return f"Essential for {topic.lower()} implementation and effective administration"
+        elif "important for" in template.lower():
+            return f"Provides foundation for {topic.lower()} and systematic governance"
+        elif "known for" in template.lower():
+            return f"Excellence in {topic.lower()} and administrative efficiency"
+        elif "contribution" in template.lower():
+            return f"Significant impact on {topic.lower()} and cultural development"
+        else:
+            return f"Key role in {topic.lower()} and overall development"
     
     def create_comprehensive_question_paper(self, output_dir: str = ".") -> pd.DataFrame:
         """Create a comprehensive MPPSC question paper in one file"""
