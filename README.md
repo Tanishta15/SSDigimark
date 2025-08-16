@@ -1,4 +1,4 @@
-# MPPSC Integrated Platform (Minimal App)
+# MPPSC Integrated Platform
 
 All‑in‑one Streamlit app for MPPSC preparation: answer‑sheet evaluation, grammar checking, and question generation. This minimal distribution bundles the Streamlit UI and a Watson OCR–powered backend so you can run locally on Windows.
 
@@ -174,3 +174,4 @@ GPU/CPU notes (PyTorch)
 
 —
 Generated: 2025‑08‑17
+
