@@ -12,6 +12,7 @@ pillow==10.3.0
 pdf2image==1.17.0
 easyocr==1.7.2
 pytesseract==0.3.13
+PyMuPDF>=1.24.0  # fitz used in watson_ocr.py
 
 # NLP and Transformers
 transformers==4.41.1
@@ -22,6 +23,7 @@ torch==2.6.0
 PyPDF2==3.0.1
 reportlab==4.4.0
 pypdfium2>=4.0.0
+XlsxWriter>=3.2.0  # Excel export engine used via pandas
 
 # Language Processing
 language-tool-python>=2.9.0
@@ -44,6 +46,7 @@ faiss-cpu==1.7.4
 ibm-watson==6.0.0
 ibm-cloud-sdk-core==3.10.0
 ibm-generative-ai==3.0.0
+ibm-watsonx-ai>=1.0.0  # used by watson_ocr.py
 
 # Document processing
 docling-core==2.4.0
