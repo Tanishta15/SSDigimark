@@ -1,0 +1,51 @@
+# Core Web App
+streamlit==1.45.0
+python-dotenv==1.0.0
+
+# Data Handling
+pandas==2.1.4
+numpy==1.26.4
+pyarrow==16.1.0
+
+# Image and OCR
+pillow==10.3.0
+pdf2image==1.17.0
+easyocr==1.7.2
+pytesseract==0.3.13
+
+# NLP and Transformers
+transformers==4.41.1
+sentence-transformers==4.0.1
+torch==2.6.0
+
+# PDF and Document Processing
+PyPDF2==3.0.1
+reportlab==4.4.0
+pypdfium2>=4.0.0
+
+# Language Processing
+language-tool-python>=2.9.0
+requests>=2.32.0
+
+# Visualization and ML
+matplotlib==3.7.1
+scikit-learn==1.2.2
+
+# Utility libraries
+openpyxl>=3.1.0
+opencv-python
+filetype==1.2.0
+tqdm>=4.64.0
+
+# Vector Search
+faiss-cpu==1.7.4
+
+# IBM Watson and Related SDKs (optional)
+ibm-watson==6.0.0
+ibm-cloud-sdk-core==3.10.0
+ibm-generative-ai==3.0.0
+
+# Document processing
+docling-core==2.4.0
+docling-ibm-models==2.0.3
+docling==2.3.1
