@@ -1,8 +1,67 @@
+# MPPSC Services Platform Requirements - Comprehensive
+
+# Core Web Framework
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+
+# Data Handling and Analysis
+pandas>=2.1.0
+numpy>=1.26.0
+pyarrow>=16.0.0
+plotly>=5.0.0
+seaborn>=0.11.0
+openpyxl>=3.1.0
+
+# Cloud and Storage
+boto3>=1.34.0
+
+# Image and OCR Processing
+pillow>=10.0.0
+pdf2image>=1.17.0
+easyocr>=1.7.0
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+
+# NLP and AI/ML
+transformers>=4.30.0
+sentence-transformers>=4.0.0
+torch>=2.0.0
+scikit-learn>=1.2.0
+faiss-cpu>=1.7.0
+
+# PDF and Document Processing
+PyPDF2>=3.0.0
+pypdf>=3.0.0
+reportlab>=4.0.0
+python-docx>=0.8.11
+pypdfium2>=4.0.0
+fpdf2>=2.7.0
+
+# Data Processing Pipeline
+data-prep-toolkit>=0.2.0
+filetype>=1.2.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Grammar Checker and Language Tools
 requests>=2.32.0
 language-tool-python>=2.9.0
-openpyxl>=3.1.0
-python-dotenv>=1.0.0
-opencv-python
-pytesseract
-re
-numpy
+
+# IBM Watson and AI Services
+ibm-watson>=6.0.0
+ibm-cloud-sdk-core>=3.10.0
+ibm-generative-ai>=3.0.0
+ibm-watsonx-ai>=1.3.0
+
+# Document Analysis (Docling)
+docling-core>=2.4.0
+docling-ibm-models>=2.0.0
+docling>=2.3.0
+
+# Kubeflow Pipelines (for advanced workflows)
+kfp>=2.0.0
+
+# Async Processing
+asyncio-extra>=1.3.0
+aiofiles>=23.0.0
