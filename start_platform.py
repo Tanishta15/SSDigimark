@@ -20,6 +20,9 @@ os.environ['HF_DATASETS_CACHE'] = 'D:/huggingface_cache/datasets'
 os.environ['HF_HUB_DISABLE_SYMLINKS_WARNING'] = '1'
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
+# Fix Streamlit torch compatibility issue
+os.environ['STREAMLIT_WATCHER_DISABLE_FOLDER_OBSERVER'] = '1'
+
 # Create cache directories if they don't exist
 cache_dirs = [
     Path('D:/huggingface_cache'),
@@ -61,7 +64,8 @@ if __name__ == "__main__":
             "--server.port", "8502",
             "--server.headless", "false",
             "--browser.gatherUsageStats", "false",
-            "--server.allowRunOnSave", "true"
+            "--server.allowRunOnSave", "true",
+            "--server.fileWatcherType", "none"
         ]
         
         stlit.main()
